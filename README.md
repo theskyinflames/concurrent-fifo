@@ -11,9 +11,9 @@ func main() {
 	fifo.Put(2)
 	fifo.Put(1)
     
-    println(fifo.Pop().(int))
+    	println(fifo.Pop().(int))
 	println(fifo.Pop().(int))
 	println(fifo.Pop().(int))
-    println(fifo.Pop().(int))
+    	println(fifo.Pop().(int))
 }
 ```
